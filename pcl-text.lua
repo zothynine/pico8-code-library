@@ -1,5 +1,5 @@
 function pcl_text(txt, options)
-  local _center,_chars,_w,_x,_y,_col,_stroke,_shadow = options and options.center,#txt,#txt*4,(options and options.x) or 0,(options and options.y) or 0,(options and options.col) or 7,(options and options.scol),options and options.shd
+  local _center,_chars,_w,_x,_y,_col,_stroke,_shadow = options and options.center,#txt,#txt*4,(options and options.x) or 0,(options and options.y) or 0,(options and options.col) or 7,(options and options.stk),options and options.shd
 
   if _center then
     _x = (127-_w)/2
