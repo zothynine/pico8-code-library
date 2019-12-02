@@ -4,6 +4,8 @@
 - param **txt** _string_: text to process
 - param **options** _table_: table of option parameters
 
+Provides functionality for text fx.
+
 ##  Options
 - **x**: x position _default 0_
 - **y**: y position _default 0_
